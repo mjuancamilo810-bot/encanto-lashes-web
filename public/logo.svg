@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Encanto Lashes — Pestañas · Maquillaje · Accesorios</title>
+  <defs>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D9A574"/>
+      <stop offset="55%" stop-color="#C08552"/>
+      <stop offset="100%" stop-color="#A9713F"/>
+    </linearGradient>
+    <radialGradient id="watercolor" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#F3CFC7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#F3CFC7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="460" fill="#FBF3F0"/>
+  <ellipse cx="200" cy="185" rx="150" ry="130" fill="url(#watercolor)"/>
+
+  <path d="M76 150 A124 124 0 0 1 324 150" fill="none" stroke="url(#metal)" stroke-width="1.4"/>
+
+  <g fill="none" stroke="url(#metal)" stroke-width="1.2" stroke-linecap="round">
+    <path d="M118 232 q-4 22 -22 30" />
+    <path d="M104 240 q-6 6 -14 4" />
+    <path d="M110 254 q-7 3 -13 -1" />
+    <circle cx="96" cy="262" r="3" fill="url(#metal)" stroke="none"/>
+  </g>
+
+  <g font-family="'Playfair Display', Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="205" y="205" font-size="128" font-weight="700" fill="url(#metal)">E</text>
+    <text x="205" y="248" font-size="118" font-weight="700" fill="url(#metal)">L</text>
+  </g>
+
+  <g fill="url(#metal)">
+    <path d="M112 130 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4z"/>
+    <path d="M296 150 l3.4 9.4 9.4 3.4 -9.4 3.4 -3.4 9.4 -3.4 -9.4 -9.4 -3.4 9.4 -3.4z"/>
+  </g>
+
+  <text x="200" y="322" font-family="'Segoe Script', 'Brush Script MT', cursive" font-size="52" fill="#1A1613" text-anchor="middle">Encanto</text>
+  <path d="M312 296 c6 -8 18 -8 18 3 c0 9 -18 18 -18 18 c0 0 -18 -9 -18 -18 c0 -11 12 -11 18 -3z" fill="none" stroke="#1A1613" stroke-width="2"/>
+
+  <text x="200" y="356" font-family="Arial, sans-serif" font-size="26" letter-spacing="8" fill="#E8A9B8" text-anchor="middle">LASHES</text>
+
+  <text x="200" y="390" font-family="Arial, sans-serif" font-size="12" letter-spacing="2.5" fill="#1A1613" text-anchor="middle">PESTAÑAS &#183; MAQUILLAJE &#183; ACCESORIOS</text>
+
+  <path d="M200 408 c4 -6 13 -6 13 2 c0 6 -13 13 -13 13 c0 0 -13 -7 -13 -13 c0 -8 9 -8 13 -2z" fill="#E8A9B8"/>
+</svg>

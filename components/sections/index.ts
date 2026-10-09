@@ -1,0 +1,10 @@
+export { ShowcaseVitrine } from "./ShowcaseVitrine";
+export { Hero } from "./Hero";
+export { TrustBand } from "./TrustBand";
+export { Pillars } from "./Pillars";
+export { BeforeAfterSection } from "./BeforeAfterSection";
+export { TechniqueFinder } from "./TechniqueFinder";
+export { FeaturedProducts } from "./FeaturedProducts";
+export { KitAccent } from "./KitAccent";
+export { Testimonials } from "./Testimonials";
+export { B2BSection } from "./B2BSection";

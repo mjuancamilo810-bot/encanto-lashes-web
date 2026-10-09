@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+/*
+  Design tokens — ver DESIGN_TOKENS.md para la explicación completa.
+  Tailwind v4 usa CSS-native theming (@theme) en vez de tailwind.config.js;
+  este bloque cumple el mismo rol que el "tailwind.config a partir de
+  DESIGN_TOKENS.md" pedido originalmente.
+*/
+:root {
+  --color-cream: #fbf3f0;
+  --color-blush: #f3cfc7;
+  --color-blush-light: #f9e2dc;
+  --color-rose-gold: #c08552;
+  --color-rose-gold-light: #d9a574;
+  --color-pink: #e8a9b8;
+  --color-noir: #1a1613;
+  --color-mauve: #6e5449;
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-blush: var(--color-blush);
+  --color-blush-light: var(--color-blush-light);
+  --color-rose-gold: var(--color-rose-gold);
+  --color-rose-gold-light: var(--color-rose-gold-light);
+  --color-pink: var(--color-pink);
+  --color-noir: var(--color-noir);
+  --color-mauve: var(--color-mauve);
+
+  --font-display: var(--font-fraunces);
+  --font-script: var(--font-parisienne);
+  --font-body: var(--font-poppins);
+
+  --shadow-glow-rose: 0 20px 60px -15px rgb(192 133 82 / 0.35);
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-twinkle: twinkle 2.4s ease-in-out infinite;
+  --animate-kenburns: kenburns-cycle 18s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+/*
+  Crossfade lento tipo "Ken Burns" para fondos fotográficos ambientales
+  (ver ShowcaseVitrine). Dos capas usan el mismo keyframe con
+  animation-delay negativo para alternar: mientras una se desvanece hacia
+  fuera, la otra entra. prefers-reduced-motion ya congela esto globalmente
+  más abajo en este archivo.
+*/
+@keyframes kenburns-cycle {
+  0% {
+    opacity: 0;
+    transform: scale(1) translate(0, 0);
+  }
+  8% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+    transform: scale(1.08) translate(-1.5%, 1%);
+  }
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-noir);
+  font-family: var(--font-body);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+  }
+
+  ::selection {
+    background: var(--color-blush);
+    color: var(--color-noir);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-rose-gold);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

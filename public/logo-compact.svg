@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 110" role="img" aria-labelledby="logoCompactTitle">
+  <title id="logoCompactTitle">Encanto Lashes</title>
+  <defs>
+    <linearGradient id="metalCompact" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D9A574"/>
+      <stop offset="55%" stop-color="#C08552"/>
+      <stop offset="100%" stop-color="#A9713F"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="52" cy="55" r="40" fill="none" stroke="url(#metalCompact)" stroke-width="1.4"/>
+  <g font-family="'Playfair Display', Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="52" y="66" font-size="42" font-weight="700" fill="url(#metalCompact)">E</text>
+    <text x="52" y="82" font-size="38" font-weight="700" fill="url(#metalCompact)" opacity="0.92">L</text>
+  </g>
+  <path d="M20 30 l2.6 7.2 7.2 2.6 -7.2 2.6 -2.6 7.2 -2.6 -7.2 -7.2 -2.6 7.2 -2.6z" fill="url(#metalCompact)"/>
+
+  <text x="112" y="58" font-family="'Segoe Script', 'Brush Script MT', cursive" font-size="34" fill="#1A1613" text-anchor="start">Encanto</text>
+  <path d="M258 38 c4 -5.5 12.5 -5.5 12.5 2 c0 6.3 -12.5 12.5 -12.5 12.5 c0 0 -12.5 -6.2 -12.5 -12.5 c0 -7.5 8.5 -7.5 12.5 -2z" fill="none" stroke="#1A1613" stroke-width="1.6"/>
+
+  <text x="112" y="82" font-family="Arial, sans-serif" font-size="16" letter-spacing="5" fill="#E8A9B8" text-anchor="start">LASHES</text>
+</svg>

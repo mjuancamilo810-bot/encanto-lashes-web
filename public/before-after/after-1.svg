@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900">
+  <rect width="800" height="900" fill="#F9E2DC"/>
+  <ellipse cx="400" cy="380" rx="180" ry="90" fill="#1A1613" opacity="0.08"/>
+  <path d="M240 400 Q400 320 560 400" stroke="#1A1613" stroke-width="10" fill="none" opacity="0.55" stroke-linecap="round"/>
+  <path d="M240 400 Q400 470 560 400" stroke="#C08552" stroke-width="6" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <circle cx="300" cy="390" r="14" fill="#1A1613" opacity="0.6"/>
+  <circle cx="500" cy="390" r="14" fill="#1A1613" opacity="0.6"/>
+  <text x="400" y="760" font-family="Georgia, serif" font-size="34" fill="#1A1613" text-anchor="middle" opacity="0.75">DESPUÉS</text>
+  <text x="400" y="800" font-family="Arial, sans-serif" font-size="16" letter-spacing="4" fill="#8A7267" text-anchor="middle">FOTO DE REFERENCIA — REEMPLAZAR</text>
+</svg>

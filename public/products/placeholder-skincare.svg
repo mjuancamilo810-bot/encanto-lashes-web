@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="g3" gradientTransform="rotate(141)">
+      <stop offset="0%" stop-color="#F9E2DC"/>
+      <stop offset="100%" stop-color="#F3CFC7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g3)"/>
+  <circle cx="300" cy="260" r="120" fill="#FBF3F0" opacity="0.6"/>
+  <rect x="255" y="180" width="90" height="160" rx="28" fill="#D9A574" opacity="0.85"/>
+  <rect x="270" y="150" width="60" height="50" rx="14" fill="#C08552"/>
+  <text x="300" y="470" font-family="Georgia, serif" font-size="26" fill="#1A1613" text-anchor="middle" opacity="0.7">Skincare</text>
+  <text x="300" y="500" font-family="Arial, sans-serif" font-size="14" letter-spacing="3" fill="#8A7267" text-anchor="middle">ENCANTO LASHES</text>
+</svg>
